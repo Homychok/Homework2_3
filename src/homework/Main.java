@@ -17,13 +17,13 @@ public class Main {
         lada.roadSistem2();
         lada.makeStops();
         bus2.makeStops();
-        lada.addTransport(bus1);
+        lada.addTransport(bus1);   //добавляем к ладе в парк бас1
         lada.addTransport(bus2);
         lada.addTransport(bus3);
         lada.addTransport(lada2);
 
         for (Transport addToTransportPark : lada.getAddToTransportPark()) {
-            if (addToTransportPark instanceof Car) {
+            if (addToTransportPark instanceof Car) {         // проверяет принадлежность car к addTransportPark
                 Car car = (Car) addToTransportPark;
                 car.roadSistem();
             } else if (addToTransportPark instanceof Bus) {
