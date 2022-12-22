@@ -22,6 +22,9 @@ public abstract class Transport {
         System.out.println("Еду не менее " + getMaxVelocity());
     }
     public abstract void roadSistem2();
+    public void makeStops() {
+        System.out.println("Едем без остановок");
+    }
 
     public String getBrand() {
         return brand;

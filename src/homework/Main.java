@@ -19,5 +19,7 @@ public class Main {
         lada.roadSistem();
         bus1.roadSistem2();
         lada.roadSistem2();
+        lada.makeStops();
+        bus2.makeStops();
     }
 }

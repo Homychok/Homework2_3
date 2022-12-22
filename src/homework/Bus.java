@@ -9,4 +9,8 @@ public class Bus extends Transport{
     public void roadSistem2() {
         System.out.println("Еду не только по ровной дороге.");
     }
+    public void makeStops() {
+//        super.makeStops();
+        System.out.println("Еду только с остановками");
+    }
 }
